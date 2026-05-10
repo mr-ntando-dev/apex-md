@@ -93,6 +93,15 @@ module.exports = {
   BURN_ENABLED:      true,
   BURN_MAX_SECONDS:  300,       // max 5 minutes before self-destruct
 
+
+  // ── New 2026 Supreme keys ─────────────────────────────────
+  TENOR_API_KEY:     process.env.TENOR_API_KEY     || '',   // Anime GIFs — get free at tenor.com/developer
+  AUDD_API_KEY:      process.env.AUDD_API_KEY      || '',   // Shazam/song recognition — audd.io
+  URLSCAN_API_KEY:   process.env.URLSCAN_API_KEY   || '',   // URL malware scan — urlscan.io
+
+  // ── Default language ──────────────────────────────────────
+  DEFAULT_LANG:      process.env.DEFAULT_LANG      || 'en', // en | pt | es | fr | sw | zu | ha
+
   // ── Theme / UI ────────────────────────────────────────────
   THEME_EMOJI:   '⚡',
   DIVIDER:       '━━━━━━━━━━━━━━━━━━━━━━━━',

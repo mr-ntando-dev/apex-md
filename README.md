@@ -1,17 +1,17 @@
 <div align="center">
 
-# ⚡ APEX-MD
+# ⚡ APEX-MD — 2026 Supreme Edition
 
-**Advanced WhatsApp Multi-Device Bot — 2026 Edition**
+**Advanced WhatsApp Multi-Device Bot**
 
-[![Version](https://img.shields.io/badge/version-2.0.0-gold?style=for-the-badge)](.)
+[![Version](https://img.shields.io/badge/version-2.1.0-gold?style=for-the-badge)](.)
 [![Node](https://img.shields.io/badge/node-18+-brightgreen?style=for-the-badge)](.)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](.)
-[![Commands](https://img.shields.io/badge/commands-160+-orange?style=for-the-badge)](.)
+[![Commands](https://img.shields.io/badge/commands-200+-orange?style=for-the-badge)](.)
 [![AI](https://img.shields.io/badge/AI-Triple_Engine-purple?style=for-the-badge)](.)
 
-Built on [@whiskeysockets/baileys](https://github.com/WhiskeySockets/Baileys) with a triple AI engine,
-Guardian AI group protection, ElevenLabs voice notes, live web search, self-destruct messages, economy system, 6 social downloaders, and 160+ commands across 8 categories.
+Built on [@whiskeysockets/baileys](https://github.com/WhiskeySockets/Baileys).  
+Triple AI engine · Guardian AI · 26 anime reactions · 12 bot themes · Live plugin store · 10 social downloaders · Audio effects · Logo maker · 7 languages · 200+ commands.
 
 </div>
 
@@ -19,54 +19,76 @@ Guardian AI group protection, ElevenLabs voice notes, live web search, self-dest
 
 ## 🌍 The WhatsApp Bot Ecosystem
 
-There are genuinely great bots in this space — each built by talented developers:
+There are genuinely great bots in this space. Here's an honest map:
 
-| Bot | Strengths | Repo |
-|-----|-----------|------|
-| **Queen Elisa MD** | Pioneered the MD era, great UX, strong community | Community-maintained |
-| **Knight Bot Mini** | Excellent UI, solid admin tools, active updates | Multiple forks |
-| **STARK-MD** | Clean codebase, modular, easy to fork | Multiple forks |
-| **MEGA-MD** | Good MongoDB integration, reliable | Multiple forks |
-| **XstroMD** | Fast, minimal footprint | Community-maintained |
-| **APEX-MD** | Triple AI engine, Guardian AI, voice notes, live search | **This repo** |
+| Bot | What they do well |
+|-----|-------------------|
+| [**Queen Elisa MD**](https://github.com/WAheedbot/Queen-Elisa-MD-V2) | Pioneered the MD era, strong Sri Lankan community, solid economy system |
+| [**Atlas-MD**](https://github.com/FantoX/Atlas-MD) | Live plugin store, 300+ commands with plugins, multi-key AI pool, 20 bot characters |
+| [**Silva-MD**](https://github.com/SilvaTechB/silva-md-bot) | Beautiful theming (18+ personalities), excellent deployment guides, one-click hosting |
+| [**STARK-MD**](https://github.com/ALI-INXIDE/STARK-MD) | Clean modular codebase, easy to fork and extend |
+| [**MEGA-MD**](https://github.com/GlobalTechInfo/MEGA-MD) | Solid MongoDB integration, reliable group management |
+| **APEX-MD** | Triple AI with auto-failover, Guardian AI (scam/raid/impersonation), 7-language UI |
 
-Every bot above is worth knowing. APEX-MD's focus is AI depth, group safety, and a complete command catalog. Use whatever fits your needs.
+Use whatever fits your needs. APEX-MD is built to be complete out of the box without installing extra plugins for core features.
 
 ---
 
-## ✨ What's New in v2.0.0
+## ✨ What's in v2.1.0
 
-### 🤖 Triple AI Engine — Auto-Routing
-Run up to three AI backends simultaneously. APEX-MD picks the best available and auto-retries on failure:
-- **Claude 3.5 Sonnet** (Anthropic) — conversational quality priority
-- **GPT-4o** (OpenAI) — DALL-E 3, Vision, code
-- **Gemini 2.0 Flash** (Google) — fastest, free tier available
-
-Add any one key and it works. Add all three for zero-downtime failover.
-
-### 🛡️ Guardian AI
-AI-powered group protection running silently in the background:
-- **Scam detection** — heuristic fast-check + AI threat scoring (0-10)
-- **Raid detection** — 5+ joins in 30 seconds triggers auto-lock + admin alert
-- **Impersonation alerts** — detects users faking admin/owner identities
-- Auto-kick on threat score ≥ 9 (configurable)
-
-### 🆕 New Commands in v2.0.0
-| Command | Category | Description |
-|---------|----------|-------------|
-| `.voice [text]` | AI | AI voice note via ElevenLabs (29 languages) |
-| `.search [query]` | AI | Live web search via Perplexity Sonar Pro |
-| `.debate [topic]` | AI | AI argues both sides + verdict |
-| `.roast [@user]` | AI | Clever AI roast |
-| `.burn [sec] [msg]` | Fun | Self-destructing message (5s–300s) |
-| `.horoscope [sign]` | Fun | AI daily horoscope (all 12 signs) |
-| `.remind [time] [msg]` | Utility | Smart reminders (30s / 5m / 2h / 1d) |
+| Area | What was added |
+|------|----------------|
+| 🎭 **Anime Reactions** | 26 types: hug, kiss, slap, pat, bite, cry, bonk, wave, dance, poke, cuddle, blush, wink, laugh, stare, punch, lick, nom, yeet, nuzzle, smug, pout, shrug, facepalm, highfive, confused — all as GIFs via Tenor |
+| 🎨 **Bot Themes** | 12 personalities: apex, naruto, gojo, itachi, zerotwo, nezuko, goku, batman, friday, ayanokoji, luffy, makima |
+| 🧩 **Live Plugin Store** | `.install [url]` — load new commands without restarting |
+| 🛡️ **Protection Suite** | Anti-Call, Anti-Fake, Anti-Demote, Anti-ViewOnce, Anti-@Everyone |
+| 📥 **More Downloaders** | Pinterest, SoundCloud, Threads, MediaFire (total: 10 platforms) |
+| 🎛️ **Audio Effects** | 8 effects: bass, nightcore, slow, reverse, echo, robot, chipmunk, deep |
+| 🎨 **Logo Maker** | 40 styles: glitch, neon, fire, ice, galaxy, gold, chrome and 33 more |
+| 🔧 **Utility Gaps** | `.shazam`, `.morse`, `.base64`, `.ip`, `.virus`, `.hidetag`, `.tempmail`, `.gitclone`, `.wikipedia`, `.ascii` |
+| 🌍 **Multi-Language UI** | 7 languages: English, Português, Español, Français, Swahili, Zulu, Hausa |
+| 🤖 **Triple AI Engine** | GPT-4o + Claude 3.5 Sonnet + Gemini 2.0 Flash (auto-routes, auto-failover) |
+| 🛡️ **Guardian AI** | AI-powered scam detection, raid protection, impersonation alerts |
 
 ---
 
 ## 📋 Full Command Reference
 
-All 160+ commands, organized by category. Every category gets equal weight — nothing is buried.
+All 200+ commands. Every category gets equal space.
+
+---
+
+### 🎭 Anime Reactions
+*All 26 send an animated GIF via Tenor API. Use with @mention or solo.*
+
+| Command | Action |
+|---------|--------|
+| `.hug [@user]` | Anime hug GIF |
+| `.kiss [@user]` | Anime kiss GIF |
+| `.slap [@user]` | Anime slap GIF |
+| `.pat [@user]` | Head pat GIF |
+| `.bite [@user]` | Anime bite GIF |
+| `.cry` | Anime cry GIF |
+| `.bonk [@user]` | Bonk GIF |
+| `.wave [@user]` | Wave GIF |
+| `.dance [@user]` | Dance GIF |
+| `.poke [@user]` | Poke GIF |
+| `.cuddle [@user]` | Cuddle GIF |
+| `.blush` | Blush GIF |
+| `.wink [@user]` | Wink GIF |
+| `.laugh [@user]` | Laugh GIF |
+| `.stare [@user]` | Stare GIF |
+| `.punch [@user]` | Punch GIF |
+| `.lick [@user]` | Lick GIF |
+| `.nom [@user]` | Nom GIF |
+| `.yeet [@user]` | Yeet GIF |
+| `.nuzzle [@user]` | Nuzzle GIF |
+| `.smug` | Smug face GIF |
+| `.pout [@user]` | Pout GIF |
+| `.shrug` | Shrug GIF |
+| `.facepalm` | Facepalm GIF |
+| `.highfive [@user]` | High five GIF |
+| `.confused` | Confused GIF |
 
 ---
 
@@ -74,20 +96,20 @@ All 160+ commands, organized by category. Every category gets equal weight — n
 
 | Command | Description |
 |---------|-------------|
-| `.ai [text]` | Chat with AI — auto-routes to best engine, per-user memory (30 msg, 1hr) |
-| `.imagine [prompt]` | Generate image — DALL-E 3 with Stable Diffusion XL fallback |
+| `.ai [text]` | Chat with AI — auto-routes to best engine (Claude/GPT-4o/Gemini) with per-user memory |
+| `.imagine [prompt]` | Generate image — DALL-E 3 HD, falls back to Stable Diffusion XL |
 | `.analyze` | Analyze an image — reply to any image (GPT-4o Vision or Gemini Vision) |
-| `.voice [text]` | AI voice note via ElevenLabs multilingual v2 — sends as WhatsApp ptt |
-| `.search [query]` | Live web search via Perplexity Sonar Pro — real-time answers |
-| `.debate [topic]` | AI argues FOR and AGAINST any topic, delivers a verdict |
-| `.roast [@user/name]` | Clever AI roast — sharp but not hateful |
+| `.voice [text]` | AI voice note via ElevenLabs multilingual v2 (29 languages) |
+| `.search [query]` | Live web search via Perplexity Sonar Pro — real-time results |
+| `.debate [topic]` | AI argues both sides + delivers a verdict |
+| `.roast [@user]` | Clever AI roast |
 | `.code [task]` | Generate working code in any language |
 | `.story [prompt]` | Generate a short story |
-| `.summarize` | Summarize a long message — reply to any text |
-| `.translate [lang] [text]` | AI-powered translation (100+ languages) |
-| `.character [name]` | Chat with a famous character or custom persona |
+| `.summarize` | Summarize a long message — reply to text |
+| `.translate [lang] [text]` | AI translation (100+ languages) |
+| `.character [name]` | Chat with a famous character or persona |
 | `.lyrics [song]` | Find song lyrics |
-| `.clearchat` | Clear your personal AI conversation memory |
+| `.clearchat` | Clear your AI conversation memory |
 
 ---
 
@@ -96,26 +118,45 @@ All 160+ commands, organized by category. Every category gets equal weight — n
 
 | Command | Description |
 |---------|-------------|
-| `.antilink` | Toggle anti-link protection — set action to delete / warn / kick |
-| `.antispam` | Toggle anti-spam protection |
-| `.antidelete` | Restore deleted messages in group log |
-| `.warn @user` | Warn a user — 3 strikes triggers auto-kick |
-| `.warnings @user` | Check a user's current warning count |
-| `.resetwarn @user` | Reset a user's warnings |
-| `.kick @user` | Remove a member from the group |
-| `.promote @user` | Promote member to admin |
-| `.demote @user` | Demote admin to member |
-| `.tagall` | Mention all group members |
-| `.mute` | Lock group — only admins can send messages |
+| `.antilink [on/off]` | Anti-link — set action to delete / warn / kick |
+| `.antispam [on/off]` | Anti-spam protection |
+| `.antidelete [on/off]` | Restore deleted messages in group log |
+| `.warn @user` | Warn user — 3 strikes = auto-kick |
+| `.warnings @user` | Check warning count |
+| `.resetwarn @user` | Reset warnings |
+| `.kick @user` | Remove member |
+| `.promote @user` | Promote to admin |
+| `.demote @user` | Demote from admin |
+| `.tagall [msg]` | Mention all members with a message |
+| `.hidetag [msg]` | Silently notify all members (no names shown) |
+| `.mute` | Lock group — admins only can send |
 | `.unmute` | Unlock group |
-| `.setwelcome` | Set custom welcome and goodbye messages |
+| `.setwelcome` | Set custom welcome/goodbye messages |
 | `.setname [name]` | Change group name |
-| `.setdesc [description]` | Change group description |
+| `.setdesc [desc]` | Change group description |
 | `.revoke` | Reset group invite link |
-| `.linkgroup` | Get current group invite link |
-| `.poll [question]` | Create a poll with options |
-| `.groupinfo` | Show group info, member count, and settings |
-| `.filter [word]` | Add or remove a word from the bad-word filter |
+| `.linkgroup` | Get group invite link |
+| `.poll [question]` | Create a poll |
+| `.groupinfo` | Group info + stats |
+| `.filter [word]` | Add/remove bad-word filter |
+
+---
+
+### 🛡️ Protection Suite
+*Advanced group security — beyond basic antilink*
+
+| Command | Description |
+|---------|-------------|
+| `.anticall [on/off]` | Auto-reject all incoming calls (owner exempt) |
+| `.antifake [on/off]` | Block users with unrecognized country codes |
+| `.antidemote [on/off]` | Auto-restore admins that get demoted |
+| `.antivv [on/off]` | Auto-forward view-once media so it can be seen |
+| `.antigm [on/off]` | Block mass @everyone / @mention spam |
+
+**Guardian AI** (runs automatically, no command needed):
+- Scam detection with threat scoring (0–10) + auto-kick at ≥ 9
+- Raid detection — 5+ joins in 30s = auto-lock + admin alert
+- Impersonation alerts — detects fake owner/admin names
 
 ---
 
@@ -123,17 +164,17 @@ All 160+ commands, organized by category. Every category gets equal weight — n
 
 | Command | Description |
 |---------|-------------|
-| `.burn [sec] [msg]` | Self-destructing message — deletes itself after countdown (5s–300s) |
+| `.burn [sec] [msg]` | Self-destructing message — deletes after countdown (5s–300s) |
 | `.horoscope [sign]` | AI daily horoscope — all 12 signs |
-| `.8ball [question]` | Magic 8-ball answer |
+| `.8ball [question]` | Magic 8-ball |
 | `.joke` | Random joke |
 | `.fact` | Random fun fact |
-| `.meme` | Random meme image |
+| `.meme` | Random meme |
 | `.quote` | Inspirational quote |
 | `.truth` | Random truth question |
-| `.ship @user1 @user2` | Compatibility percentage |
-| `.choose [a/b/c]` | Bot picks one option for you |
-| `.roll [N]` | Roll an N-sided dice |
+| `.ship @user1 @user2` | Compatibility % |
+| `.choose [a/b/c]` | Bot picks for you |
+| `.roll [N]` | Roll N-sided dice |
 | `.hangman` | Play Hangman |
 
 ---
@@ -142,31 +183,36 @@ All 160+ commands, organized by category. Every category gets equal weight — n
 
 | Command | Description |
 |---------|-------------|
-| `.profile` | View your XP, level, and coin balance |
-| `.daily` | Claim your daily coin reward |
-| `.work` | Earn coins — random job payout |
-| `.pay @user [amount]` | Send coins to another user |
-| `.rob @user` | Attempt to rob someone (40% success rate) |
-| `.slots [amount]` | Play the slot machine |
-| `.flip [amount]` | Coin flip for coins |
-| `.leaderboard` | Top 10 richest users in the server |
-| `.quiz` | Daily quiz question for XP bonus |
-| `.tictactoe @user` | Challenge someone to Tic-Tac-Toe |
-| `.trivia` | Random trivia question (Open Trivia DB) |
+| `.profile` | Your XP, level, and coin balance |
+| `.daily` | Claim daily coins |
+| `.work` | Earn coins from a job |
+| `.pay @user [amount]` | Send coins |
+| `.rob @user` | Rob someone (40% success rate) |
+| `.slots [amount]` | Slot machine |
+| `.flip [amount]` | Coin flip |
+| `.leaderboard` | Top 10 richest users |
+| `.quiz` | Daily quiz for XP |
+| `.tictactoe @user` | Tic-Tac-Toe |
+| `.trivia` | Random trivia (Open Trivia DB) |
 
 ---
 
-### 📥 Downloader Commands
+### 📥 Downloaders
+*10 platforms total*
 
 | Command | Description |
 |---------|-------------|
-| `.play [song name]` | Download YouTube audio — sends as audio file |
-| `.ytmp4 [url]` | Download YouTube video |
-| `.tiktok [url]` | Download TikTok video without watermark |
-| `.instagram [url]` | Download Instagram video or reel |
-| `.facebook [url]` | Download Facebook video |
-| `.twitter [url]` | Download Twitter/X video |
-| `.spotify [song]` | Spotify track info and 30s preview |
+| `.play [song]` | YouTube audio |
+| `.ytmp4 [url]` | YouTube video |
+| `.tiktok [url]` | TikTok video (no watermark) |
+| `.instagram [url]` | Instagram reel / post |
+| `.facebook [url]` | Facebook video |
+| `.twitter [url]` | Twitter/X video |
+| `.spotify [song]` | Spotify track info + preview |
+| `.pinterest [url/search]` | Pinterest image or video |
+| `.soundcloud [url]` | SoundCloud audio |
+| `.threads [url]` | Threads video or image |
+| `.mediafire [url]` | MediaFire direct download link |
 
 ---
 
@@ -174,11 +220,14 @@ All 160+ commands, organized by category. Every category gets equal weight — n
 
 | Command | Description |
 |---------|-------------|
-| `.sticker` | Convert image or video to WhatsApp sticker — reply to media |
-| `.toimg` | Convert sticker back to image |
-| `.toaudio` | Extract audio from a video |
-| `.tts [text]` | Text-to-speech voice note (standard) |
-| `.viewonce` | Re-send a view-once message so it can be saved |
+| `.sticker` | Image/video → WhatsApp sticker |
+| `.toimg` | Sticker → image |
+| `.toaudio` | Video → audio |
+| `.tts [text]` | Text-to-speech voice note |
+| `.voice [text]` | AI voice note (ElevenLabs, 29 languages) |
+| `.viewonce` | Re-send a view-once message |
+| `.audioeffect [effect]` | Apply audio effect to any audio/video — bass, nightcore, slow, reverse, echo, robot, chipmunk, deep |
+| `.logo [style] [text]` | Create a logo image (40 styles: glitch, neon, fire, ice, galaxy, gold, chrome...) — `.logo styles` to list |
 
 ---
 
@@ -186,29 +235,49 @@ All 160+ commands, organized by category. Every category gets equal weight — n
 
 | Command | Description |
 |---------|-------------|
-| `.remind [time] [msg]` | Set a reminder — 30s, 5m, 2h, 1d — bot pings you when due |
-| `.help [command]` | Show all commands or details for a specific command |
-| `.ping` | Bot latency, uptime, and memory usage |
-| `.weather [city]` | Current weather for any city |
-| `.translate [lang] [text]` | Translate text to any of 100+ languages |
+| `.remind [time] [msg]` | Smart reminder — 30s, 5m, 2h, 1d |
+| `.help [cmd]` | Show all commands or details for one command |
+| `.ping` | Latency, uptime, memory |
+| `.weather [city]` | Real-time weather |
+| `.translate [lang] [text]` | Translate (100+ languages) |
 | `.define [word]` | Dictionary definition |
-| `.currency [amount] [FROM] [TO]` | Currency conversion |
-| `.calc [expression]` | Calculator — supports complex expressions |
-| `.qr [text/url]` | Generate a QR code |
+| `.wikipedia [topic]` | Wikipedia summary |
+| `.currency [amt] [FROM] [TO]` | Currency conversion |
+| `.calc [expression]` | Calculator |
+| `.qr [text/url]` | Generate QR code |
 | `.screenshot [url]` | Screenshot any website |
 | `.time [city]` | Current time in any city |
-| `.news [topic]` | Latest news headlines |
+| `.news [topic]` | Latest news |
+| `.shazam` | Identify a song — reply to audio/video |
+| `.morse encode/decode [text]` | Morse code encoder/decoder |
+| `.base64 encode/decode [text]` | Base64 encoder/decoder |
+| `.ip [address]` | IP address lookup (country, ISP, coords) |
+| `.virus [url]` | Scan URL for malware/phishing |
+| `.tempmail new/inbox` | Generate temporary email + check inbox |
+| `.gitclone [owner/repo]` | GitHub repo info + download ZIP |
+| `.ascii [font] [text]` | ASCII text art (19 fonts) — `.ascii fonts` to list |
 | `.schedule [cron] [msg]` | Schedule recurring messages (owner only) |
+| `.setlang [code]` | Set bot language — en, pt, es, fr, sw, zu, ha |
 
 ---
 
-### 💼 Business Commands
-*Owner only*
+### 🎭 Bot Themes
 
 | Command | Description |
 |---------|-------------|
-| `.broadcast [message]` | Send a message to all chats the bot is in |
-| `.autorespond [keyword] [reply]` | Set a keyword that triggers an automatic reply |
+| `.settheme [id]` | Change bot personality |
+| `.charlist` | List all available themes |
+
+**Available themes:** `apex` · `naruto` · `gojo` · `itachi` · `zerotwo` · `nezuko` · `goku` · `batman` · `friday` · `ayanokoji` · `luffy` · `makima`
+
+---
+
+### 💼 Business (owner only)
+
+| Command | Description |
+|---------|-------------|
+| `.broadcast [msg]` | Send to all chats |
+| `.autorespond [keyword] [reply]` | Set keyword auto-replies |
 
 ---
 
@@ -216,12 +285,16 @@ All 160+ commands, organized by category. Every category gets equal weight — n
 
 | Command | Description |
 |---------|-------------|
-| `.ban @user` | Ban a user from using the bot |
-| `.unban @user` | Remove a ban |
-| `.mode [public/private]` | Switch between public and private mode |
-| `.setprefix [character]` | Change the command prefix |
-| `.send [jid] [message]` | Send a message to any chat ID |
-| `.restart` | Restart the bot process |
+| `.ban @user` | Ban from bot |
+| `.unban @user` | Unban |
+| `.mode [public/private]` | Switch mode |
+| `.setprefix [char]` | Change prefix |
+| `.send [jid] [msg]` | Send to any chat ID |
+| `.restart` | Restart bot |
+| `.install [url]` | Install plugin from URL (no restart needed) |
+| `.uninstall [name]` | Remove installed plugin |
+| `.plugins` | List installed plugins |
+| `.settheme [id]` | Change bot personality |
 
 ---
 
@@ -229,57 +302,64 @@ All 160+ commands, organized by category. Every category gets equal weight — n
 
 ```
 apex-md/
-├── index.js                  ← Main entry point (Baileys socket + event loop)
-├── config.js                 ← All settings — override any value via .env
-├── .env.example              ← Environment variable template with setup links
+├── index.js                  ← Baileys socket + event loop
+├── config.js                 ← All settings (override via .env)
+├── .env.example              ← Template with setup links
 ├── package.json
 │
 ├── lib/
 │   ├── handler.js            ← Command router, rate limiter, permissions
 │   ├── ai.js                 ← Triple AI engine (GPT-4o + Claude + Gemini)
 │   ├── guardian.js           ← Guardian AI (scam / raid / impersonation)
+│   ├── pluginLoader.js       ← Live plugin installer (no restart)
+│   ├── i18n.js               ← Multi-language support (7 languages)
 │   ├── database.js           ← MongoDB + in-memory fallback
 │   ├── economy.js            ← XP / coins / level system
-│   ├── scheduler.js          ← Cron-based message scheduler
+│   ├── scheduler.js          ← Cron message scheduler
 │   └── logger.js             ← Structured logging (Pino)
 │
+├── themes/
+│   └── index.js              ← 12 bot personality themes
+│
+├── plugins/                  ← User-installed live plugins (auto-loaded)
+│
 └── commands/
+    ├── anime/       ← 26 reaction GIFs (hug, kiss, slap, pat, bite, cry...)
     ├── ai/          ← chat, imagine, analyze, voice, search, debate, roast, code...
-    ├── admin/       ← antilink, antispam, antidelete, warn, kick, promote, poll...
+    ├── admin/       ← antilink, antispam, antidelete, warn, kick, promote, hidetag...
+    ├── protection/  ← anticall, antifake, antidemote, antivv, antigm
     ├── fun/         ← burn, horoscope, 8ball, joke, meme, hangman, ship...
     ├── games/       ← profile, daily, work, slots, flip, tictactoe, trivia, quiz...
-    ├── downloader/  ← youtube, ytmp4, tiktok, instagram, facebook, twitter, spotify
-    ├── media/       ← sticker, toimg, toaudio, tts, viewonce
-    ├── utility/     ← remind, help, ping, weather, translate, calc, qr, news...
+    ├── downloader/  ← youtube, tiktok, instagram, facebook, twitter, spotify, pinterest, soundcloud, threads, mediafire
+    ├── media/       ← sticker, toimg, toaudio, tts, viewonce, audioeffects, logo
+    ├── utility/     ← remind, help, ping, weather, wikipedia, shazam, morse, base64, ip, virus, tempmail, gitclone, ascii, setlang...
     ├── business/    ← broadcast, autorespond
-    └── owner/       ← ban, unban, mode, setprefix, send, restart
+    └── owner/       ← ban, unban, mode, setprefix, send, restart, install, settheme...
 ```
 
 ---
 
 ## ⚙️ Configuration Reference
 
-All settings live in `config.js` and can be overridden via `.env`.
-
 | Key | Default | Description |
 |-----|---------|-------------|
 | `BOT_NAME` | `APEX-MD` | Bot display name |
-| `BOT_VERSION` | `2.0.0` | Current version |
-| `BOT_PREFIX` | `.` | Command trigger character |
-| `OWNER_NUMBER` | *(required)* | Your WhatsApp number, no `+` |
-| `PUBLIC_MODE` | `false` | `true` = anyone can use the bot |
+| `BOT_VERSION` | `2.1.0` | Current version |
+| `BOT_PREFIX` | `.` | Command trigger |
+| `OWNER_NUMBER` | *(required)* | Your number, no `+` |
+| `PUBLIC_MODE` | `false` | `true` = anyone can use |
 | `AI_ROUTER` | `auto` | `auto` / `openai` / `claude` / `gemini` |
-| `AI_CONTEXT_LIMIT` | `30` | Messages kept in memory per user session |
-| `GUARDIAN_ENABLED` | `true` | AI scam / raid / impersonation protection |
+| `AI_CONTEXT_LIMIT` | `30` | Messages kept per user session |
+| `DEFAULT_LANG` | `en` | Default language |
+| `GUARDIAN_ENABLED` | `true` | AI group protection |
 | `GUARDIAN_SCAM_KICK` | `true` | Auto-kick at threat score ≥ 9 |
-| `GUARDIAN_RAID_MUTE` | `true` | Auto-lock group during detected raid |
+| `GUARDIAN_RAID_MUTE` | `true` | Auto-lock on raid detection |
 | `BURN_ENABLED` | `true` | Self-destruct messages |
-| `BURN_MAX_SECONDS` | `300` | Maximum burn countdown (5 min) |
-| `RATE_LIMIT` | `5` | Max commands per user per 10-second window |
-| `ANTI_LINK` | `true` | Default global anti-link state |
-| `AUTO_STATUS` | `true` | Auto-view contacts' status updates |
-| `AUTO_TYPING` | `true` | Show "typing…" indicator while processing |
-| `LOG_LEVEL` | `info` | `debug` / `info` / `warn` / `error` |
+| `BURN_MAX_SECONDS` | `300` | Max burn countdown |
+| `RATE_LIMIT` | `5` | Max commands per user per 10s |
+| `ANTI_LINK` | `true` | Global anti-link default |
+| `AUTO_STATUS` | `true` | Auto-view status updates |
+| `AUTO_TYPING` | `true` | Show typing indicator |
 
 ---
 
@@ -287,9 +367,8 @@ All settings live in `config.js` and can be overridden via `.env`.
 
 ### Prerequisites
 - Node.js 18+
-- Git
-- At least one AI API key (OpenAI, Claude, or Gemini — any one works)
-- MongoDB optional — bot works without it, settings just won't persist across restarts
+- At least one AI API key (OpenAI, Claude, or Gemini — pick one)
+- MongoDB optional (bot works without it)
 
 ### 1. Clone & Install
 
@@ -306,29 +385,21 @@ cp .env.example .env
 nano .env
 ```
 
-Minimum required:
-
+Minimum:
 ```env
 OWNER_NUMBER=2348012345678
 ```
 
-Add at least one AI key:
-
+AI (at least one):
 ```env
-OPENAI_API_KEY=sk-...           # platform.openai.com/api-keys
-CLAUDE_API_KEY=sk-ant-...       # console.anthropic.com
-GEMINI_API_KEY=AIza...          # aistudio.google.com/app/apikey (free tier)
+OPENAI_API_KEY=sk-...            # platform.openai.com
+CLAUDE_API_KEY=sk-ant-...        # console.anthropic.com
+GEMINI_API_KEY=AIza...           # aistudio.google.com (free)
 ```
 
-Optional extras:
-
+For anime reactions (free):
 ```env
-ELEVENLABS_API_KEY=...          # elevenlabs.io — enables .voice command
-PERPLEXITY_API_KEY=pplx-...     # perplexity.ai/settings/api — enables .search
-STABILITY_API_KEY=...           # stability.ai — DALL-E 3 image fallback
-MONGODB_URI=mongodb+srv://...   # cloud.mongodb.com — persistent group settings
-WEATHER_API_KEY=...             # openweathermap.org
-NEWS_API_KEY=...                # newsapi.org
+TENOR_API_KEY=...                # tenor.com/developer
 ```
 
 ### 3. Start
@@ -337,74 +408,56 @@ NEWS_API_KEY=...                # newsapi.org
 npm start
 ```
 
-Scan the QR code with WhatsApp → Linked Devices → Link Device.
+Scan the QR code: WhatsApp → Linked Devices → Link Device.
 
 ---
 
 ## 🚢 Deployment
 
-### VPS (recommended for 24/7 uptime)
-
+### VPS (recommended)
 ```bash
 npm install -g pm2
 pm2 start index.js --name apex-md
 pm2 save && pm2 startup
 ```
 
-### Koyeb / Railway / Render (free cloud hosting)
-
-1. Push this repo to your GitHub
-2. Create a new service pointing to your repo
-3. Add env vars from `.env`
+### Koyeb / Railway / Render
+1. Push repo to GitHub
+2. Connect service to your fork
+3. Add env vars
 4. Deploy
-
-### Docker
-
-```dockerfile
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci --production
-COPY . .
-CMD ["node", "index.js"]
-```
 
 ---
 
 ## 🔌 Adding Custom Commands
 
-Drop a file in `commands/[category]/[name].js`:
-
 ```js
 module.exports = {
   name:     'hello',
-  aliases:  ['hi', 'hey'],
+  aliases:  ['hi'],
   category: 'utility',
   desc:     'Say hello',
   usage:    '.hello',
   public:   true,
-
-  async execute({ sock, msg, from, sender, args }) {
-    await sock.sendMessage(from, {
-      text: '👋 Hello from APEX-MD!'
-    }, { quoted: msg });
+  async execute({ sock, msg, from }) {
+    await sock.sendMessage(from, { text: '👋 Hello from APEX-MD!' }, { quoted: msg });
   },
 };
 ```
 
-Restart the bot — the command is loaded automatically. No registration step needed.
+Drop in `commands/[category]/[name].js` — auto-loaded on restart.  
+Or use `.install [url]` to load without restarting.
 
 ---
 
 ## ⚠️ Legal Notice
 
-This project uses the unofficial [Baileys](https://github.com/WhiskeySockets/Baileys) library.
-Excessive automation may violate WhatsApp's Terms of Service and lead to account bans.
-Use responsibly. For production or high-volume deployments, consider the official
-[WhatsApp Business API](https://business.whatsapp.com/products/business-platform).
+Uses the unofficial [Baileys](https://github.com/WhiskeySockets/Baileys) library.  
+Overuse may violate WhatsApp ToS and cause account bans.  
+For production/high-volume use: [WhatsApp Business API](https://business.whatsapp.com/products/business-platform).
 
 ---
 
 ## 📄 License
 
-MIT — free to use, modify, and distribute.
+MIT — free to use, modify, distribute.

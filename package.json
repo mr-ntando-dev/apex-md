@@ -1,7 +1,7 @@
 {
   "name": "apex-md",
-  "version": "2.0.0",
-  "description": "APEX-MD — The most advanced WhatsApp Multi-Device Bot (2026 Supreme Edition)",
+  "version": "2.1.0",
+  "description": "APEX-MD \u2014 Advanced WhatsApp Multi-Device Bot (2026 Supreme Edition)",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -47,6 +47,14 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "keywords": ["whatsapp", "bot", "md", "baileys", "multi-device", "ai", "2026"],
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "md",
+    "baileys",
+    "multi-device",
+    "ai",
+    "2026"
+  ],
   "license": "MIT"
 }
