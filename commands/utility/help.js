@@ -30,12 +30,16 @@ module.exports = {
     }
 
     const catEmoji = {
-      admin:    '🛡️',
-      ai:       '🤖',
-      media:    '🎬',
-      games:    '🎮',
-      utility:  '🔧',
-      business: '💼',
+      admin:      '🛡️',
+      ai:         '🤖',
+      media:      '🎬',
+      games:      '🎮',
+      utility:    '🔧',
+      business:   '💼',
+      fun:        '😂',
+      owner:      '👑',
+      downloader: '⬇️',
+      nsfw:       '🔞',
     };
 
     let text = `${THEME_EMOJI} *${BOT_NAME} v${BOT_VERSION}*\n${DIVIDER}\n\n`;
